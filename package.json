@@ -1,0 +1,14 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "sass-watch": "sass --watch sass:css"
+  },
+  "author": "Jessica",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "sass": "^1.77.8"
+  }
+}
