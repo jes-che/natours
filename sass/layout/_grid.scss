@@ -1,13 +1,14 @@
 .row {
     max-width: $grid-width;
     margin: 0 auto;
+    display: flex;
 
     &:not(:last-child) {
         margin-bottom: $gutter-vertical;
     }
 
     [class^="col-"] {
-        float: left;
+        // float: left;
 
         &:not(:last-child) {
             margin-right: $gutter-horizontal;
