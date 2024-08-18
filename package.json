@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "sass-watch": "sass --watch sass:css"
+    "watch:sass": "sass --watch sass/main.scss css/style.css"
   },
   "author": "Jessica",
   "license": "ISC",
