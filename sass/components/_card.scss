@@ -1,5 +1,5 @@
 .card {
-    /* FUNCTIONALITY */
+    // FUNCTIONALITY
     -moz-perspective: 150rem;
     perspective: 150rem;
     position: relative;
@@ -47,7 +47,7 @@
         transform: rotateY(0deg);
     }
 
-    /* FRONT SIDE STYLING */
+    // FRONT SIDE STYLING
     &__picture {
         background-size: cover;
         height: 23rem;
@@ -117,7 +117,7 @@
         }
     }
 
-    /* BACK SIDE STYLING */
+    // BACK SIDE STYLING
     &__cta {
         width: 100%;
         height: 100%;
@@ -143,9 +143,10 @@
         font-weight: 100;
     }
 
-    /* RESPONSIVE */
-    @include respond(tab-port) {
-        /* FUNCTIONALITY */
+    // RESPONSIVE
+    @media only screen and (max-width: 56.25em),
+        only screen and (hover: none) {
+        // FUNCTIONALITY
         height: auto;
         border-radius: 3px;
         background-color: $color-white;
@@ -170,7 +171,7 @@
             padding: 1rem 3rem;
         }
 
-        /* FRONT SIDE STYLING */
+        // FRONT SIDE STYLING
         &__cta {
             padding: 7rem 4rem 4rem 4rem;
         }
